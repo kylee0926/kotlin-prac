@@ -63,7 +63,7 @@ class LinkedList(value: Int?) {
     }
 }
 
-fun start(){
+fun startLinkedList(){
     var linkedList = LinkedList(5)
     linkedList.appendNode(6)
     linkedList.appendNode(8)
